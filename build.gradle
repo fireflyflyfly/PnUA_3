@@ -11,7 +11,7 @@ repositories {
 
 test {
     useTestNG{
-        suites 'src/main/testng.xml'
+        suites 'src/main/resources/testng.xml'
     }
 }
 
